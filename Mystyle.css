@@ -1,0 +1,61 @@
+/*Class selector */
+p.center {
+    text-align: center;
+    color:black;
+}
+#V001 {
+    text-align: center;
+    color: black;
+    font-size: 36px;
+}
+
+/*div to text box*/
+div {
+    border-color: rgb(0, 0, 0);
+    border-width: 5px;
+    border-style: groove;
+    background-color: rgb(248, 248, 248);
+    margin: 20px auto;
+    padding: 15px;
+    width: 90%;
+}
+.box {
+    border-color: rgb(0, 0, 0);
+    border-width: 5px;
+    border-style: groove;
+    background-color: rgb(255, 255, 255);
+    margin: 20px auto;
+    padding: 15px;
+    width: 90%;
+}
+
+
+body {
+    background-color: darkgrey;
+    position: relative;
+}
+
+/*รูปตัวเอง*/
+.profile {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    border: 5px solid black;
+}
+.profile:hover {
+    animation: spin 5s linear infinite;
+}
+
+/* keyframes */
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
